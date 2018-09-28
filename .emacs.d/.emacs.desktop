@@ -1,0 +1,73 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon May 26 10:47:30 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("verti" "tn" "Terminus" "12" "KM" "W" "Work"))
+(setq regexp-search-ring '("with-open" "if" "next" ":pre" "input" "get-name" "tinput" "sig" "inputs" "name -" "name" "state-l" "input" "state" "dolis"))
+(setq register-alist (list (desktop-list* 100 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk 828 (get-buffer "extract-code-structure.lsp")))) mk)) (desktop-list* 105 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk 4355 (get-buffer "extract-code-structure.lsp")))) mk)) '(48 . "  erer\n  \n\n  \n\n\n")))
+(setq file-name-history '("~/Work/KMLrepo/fucc/CodeGen/ACtop/RE2/msc-diagram-tnsdl.lsp" "TAGS" "~/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/utils.lsp" "~/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/data.lsp" "~/Work/KMLrepo/fucc/CodeGen/RuleLanguage/TNSDL/tnsdl.smg" "~/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/extract-code-structure.lsp" "~/Work/KMLrepo/fucc/CodeGen/RuleLanguage/TNSDL/tnsdl.smg" "~/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/extract-code-structure.lsp" "~/.emacs.d/" "~/Work/KMLrepo/fucc/CodeGen/RuleLanguage/TNSDL/tnsdl.smg" "~/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/extract-code-structure.lsp" "~/.emacs" "~/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/extract-code-structure.lsp" "~/Work/KMLrepo/fucc/CodeGen/TDL/" "~/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/omarchenko/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/extract-code-structure.lsp"
+  "extract-code-structure.lsp"
+  'lisp-mode
+  '(visual-line-mode linum-mode highlight-symbol-mode rainbow-delimiters-mode auto-complete-mode paredit-mode slime-mode eldoc-mode)
+  10603
+  '(10697 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/omarchenko/Work/KMLrepo/fucc/CodeGen/ACtop/RE2/msc-diagram-tnsdl.lsp"
+  "msc-diagram-tnsdl.lsp"
+  'lisp-mode
+  '(linum-mode highlight-symbol-mode rainbow-delimiters-mode paredit-mode slime-mode)
+  14247
+  '(14079 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/omarchenko/Work/KMLrepo/fucc/CodeGen/RuleLanguage/TNSDL/tnsdl.smg"
+  "tnsdl.smg"
+  'fundamental-mode
+  '(visual-line-mode linum-mode highlight-symbol-mode rainbow-delimiters-mode auto-complete-mode)
+  14467
+  '(17287 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/omarchenko/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/utils.lsp"
+  "utils.lsp"
+  'lisp-mode
+  '(linum-mode rainbow-delimiters-mode paredit-mode slime-mode)
+  621
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/omarchenko/Work/KMLrepo/fucc/CodeGen/TDL/tnsdl2tdl/data.lsp"
+  "data.lsp"
+  'lisp-mode
+  '(linum-mode rainbow-delimiters-mode paredit-mode slime-mode)
+  1281
+  '(384 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
